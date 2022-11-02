@@ -14,13 +14,14 @@ https://www.figma.com/file/DLCGZWGTxVDwi0d0ye3V8Z/legendas.tv?node-id=0%3A1
 - [x] Footer
 - [x] Horizontal slider (popular)
 - [ ] Horizontal slider effects (popular)
+- [x] Horizontal slider header section (popular)
 - [ ] Vertical slider (history)
+- [ ] Vertical slider header section (history)
 - [ ] Vertical slider tabs (history)
 - [ ] Slots effects
-- [ ] Slots effects
-- [ ] Search input
-- [ ] Left icon
-- [ ] Right icon
+- [x] Search input
+- [x] Left icon
+- [x] Right icon
 - [ ] Search feature
 - [ ] Start alert page
 - [ ] Organize legendas.tv requests
