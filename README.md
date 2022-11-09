@@ -9,7 +9,7 @@ https://www.figma.com/file/DLCGZWGTxVDwi0d0ye3V8Z/legendas.tv?node-id=0%3A1
 - [x] Propotype
 - [x] Create react app
 - [x] Start main page
-- [ ] Splash screen
+- [x] Splash screen
 - [x] Header
 - [x] Footer
 - [x] Horizontal slider (popular)
