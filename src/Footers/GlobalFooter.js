@@ -5,7 +5,8 @@ const GlobalFooter = () => {
     return (
         <View style={styles.footerContainer}>
             <Image
-                style={{ width: Math.round(dimensions+10) }}
+                style={{ width: Math.round(dimensions+10), height: 50}}
+                resizeMode={'stretch'}
                 source={require("./footer.png")}
             />
         </View>
@@ -16,10 +17,10 @@ const GlobalFooter = () => {
 const styles = StyleSheet.create({
     footerContainer: {
         alignItems: "center",
-        position: 'absolute',
+        position: "absolute",
         left: 0,
         right: 0,
-        bottom: 0
+        bottom: -5
     }
   });
   

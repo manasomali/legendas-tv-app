@@ -5,8 +5,9 @@ const GlobalHeader = () => {
     return (
         <View style={styles.headerContainer}>
             <Image
-                style={{ width: Math.round(dimensions+10) }}
+                style={{ width: Math.round(dimensions+10), height: 50 }}
                 source={require("./header.png")}
+                resizeMode={'contain'}
             />
         </View>
         
@@ -16,10 +17,10 @@ const GlobalHeader = () => {
 const styles = StyleSheet.create({
     headerContainer: {
         alignItems: "center",
-        position: 'absolute',
+        position: "absolute",
         left: 0,
         right: 0,
-        top: 0
+        top: -5
         
     }
   });
