@@ -3,15 +3,13 @@ import AppNavigation from "../AppNavigation/AppNavigation"
 
 export default function AppState() {
     const IMAGES = {
-        image1: require("../../assets/poster_0.jpg"),
-        image2: require("../../assets/poster_1.jpg"),
-        image3: require("../../assets/poster_2.jpg"),
-        image4: require("../../assets/poster_3.jpg"),
-        image5: require("../../assets/poster_4.jpg"),
-        image6: require("../../assets/poster_5.jpg"),
-        image7: require("../../assets/poster_6.jpg"),
-        image7: require("../../assets/poster_7.jpg"),
-        image7: require("../../assets/poster_8.jpg")
+        image0: "http://i.legendas.tv/poster/140x207/legendas_tv_20220922010141.jpg",
+        image1: "http://i.legendas.tv/poster/140x207/legendas_tv_20220922010141.jpg",
+        image2: "http://i.legendas.tv/poster/140x207/legendas_tv_20220922010141.jpg",
+        image3: "http://i.legendas.tv/poster/140x207/legendas_tv_20220922010141.jpg",
+        image4: "http://i.legendas.tv/poster/140x207/legendas_tv_20220922010141.jpg",
+        image5: "http://i.legendas.tv/poster/140x207/legendas_tv_20220922010141.jpg",
+        image6: "http://i.legendas.tv/poster/140x207/legendas_tv_20220922010141.jpg"
       };
       
     const [allcards, setAllcards] = useState(
@@ -22,9 +20,7 @@ export default function AppState() {
             {cardID: 3, cardImg: IMAGES.image3},
             {cardID: 4, cardImg: IMAGES.image4},
             {cardID: 5, cardImg: IMAGES.image5},
-            {cardID: 6, cardImg: IMAGES.image6},
-            {cardID: 7, cardImg: IMAGES.image7},
-            {cardID: 8, cardImg: IMAGES.image8}
+            {cardID: 6, cardImg: IMAGES.image6}
         ]
     );
     const [card, setcard] = useState({});
