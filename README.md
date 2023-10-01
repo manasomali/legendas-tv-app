@@ -1,3 +1,5 @@
+## Archived, legendas.tv is dead.
+
 ## Legendas.tv app
 
 ## Propotype
